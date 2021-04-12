@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+##
+## EPITECH PROJECT, 2021
+## 107transfer
+## File description:
+## 107transfer project
+##
+
+from sys import argv
+from handling.handling import CheckAgs
+from engine.transfer import transfer
+
+def convert(array):
+    try:
+        for string in range(len(array)):
+            for char in range(0, len(array[string])):
+                array[string][char] = int(array[string][char])
+        return (array)
+    except:
+        exit (84)
+
+
+def main():
+    #check arguments
+    if CheckAgs(argv) == 84:
+        exit (84)
+    #create array
+    transfer_array = []
+    #split array into strings
+    for string in range(0, len(argv) - 1) :
+        transfer_array.append(argv[string + 1].split("*"))
+    #convert into int the splited strings
+    transfer_array = convert(transfer_array)
+    #operation
+    transfer(transfer_array)
+
+
+if __name__ == "__main__":
+    main()
