@@ -17,11 +17,7 @@ All the PDFs are with the defined repository!
   Language:
         Python
 
-106bombyx:
-  Grade:  
-        95.2% |
-  Language:
-        C
+106bombyx: Grade: 95.2% | Language: C
  
 107transfer:
   Grade:
