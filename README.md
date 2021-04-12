@@ -6,24 +6,44 @@ Math projects (TEK1)
 All the PDFs are with the defined repository!
 
 101pong:
-  Grade: 96.8%
-  Language: Python
+  Grade:
+        
+        96.8%
+  Language:
+  
+        Python
 
 104intersection:
-  Grade: 87%
-  Language: Python
+  Grade:
+  
+        87%
+  Language:
+    
+        Python
   
 106bombyx:
-  Grade: 95.2%
-  Language: C
+   Grade:
+        
+        95.2%
+  Language:
+  
+        C
  
 107transfer:
-  Grade: 86.4%
-  Language: Python
+  Grade:
+    
+        86.4%
+  Language:
+    
+         Python
   
 108trigo:
-  Grade: 100%
-  Language: Python
+  Grade:
+         
+         100%
+  Language:
+  
+         Python
   
   
 🚩 The projects that are not in this list are made projects but not as well.
