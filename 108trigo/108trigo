@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+##
+## EPITECH PROJECT, 2021
+## 108trigo
+## File description:
+## 108trigo main function
+##
+
+from sys import argv
+from handling.error_handling import *
+from pointer_func.run_trigo import RunTrigo
+
+def MainLoop():
+    matrix = []
+    arguments = CheckLenArg()
+    for y in range(int(arguments)):
+        matrix.append([])
+        for x in range(int(arguments)):
+            matrix[y].append(argv[y * int(arguments) + x + 2])
+    RunTrigo(matrix)
+
+
+def main():
+    if VerifyArgs() == 84:
+        exit (84)
+    else:
+        MainLoop()
+        exit (0)
+
+
+if __name__ == "__main__":
+    main()
