@@ -30,7 +30,12 @@ All the PDFs are with the defined repository!
         100%  |
   Language:
         Python
-  
+        
+110borwein:
+  Grade:
+        100%  |
+  Language:
+        Python
   
 🚩 The projects that are not in this list are made projects but not as well.
   
